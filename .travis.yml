@@ -1,0 +1,9 @@
+language: minimal
+dist: focal
+
+before_install:
+- sudo unlink /usr/local/bin/packer
+- ci/provision.sh
+
+script:
+- sudo packer build packer/rpi-ubuntu.json
