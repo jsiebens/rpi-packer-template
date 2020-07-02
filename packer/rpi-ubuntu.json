@@ -17,6 +17,7 @@
     {
       "type": "shell",
       "inline": [
+        "whoami",
         "apt-get update"
       ]
     }
