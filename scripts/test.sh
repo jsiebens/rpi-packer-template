@@ -2,3 +2,4 @@
 set -e
 
 whoami
+echo $HOME
