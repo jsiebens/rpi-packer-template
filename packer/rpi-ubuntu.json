@@ -20,6 +20,12 @@
         "whoami",
         "apt-get update"
       ]
+    },
+    {
+      "type": "shell",
+      "scripts": [
+        "scripts/test.sh"
+      ]
     }
   ]
 }
